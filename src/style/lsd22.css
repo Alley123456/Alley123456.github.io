@@ -1,0 +1,138 @@
+ body {
+     background-color: #4dd6d0;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ section {
+     padding: 0 5%;
+     position: relative;
+ }
+
+ section h1 {
+     font-size: 3rem;
+     text-align: center;
+     color: #204f46;
+ }
+
+ section h2 {
+     font-size: 2.2rem;
+     color: #3d7e72;
+     padding: 2%;
+     text-indent: 2em;
+ }
+
+ section h3 {
+     font-size: 2.2rem;
+     color: #3d7e72;
+     text-align: center;
+ }
+
+ .info {
+     margin: 1.25rem auto;
+     text-align: center;
+ }
+
+ .info input {
+     width: 70%;
+     height: 2.5rem;
+     outline: none;
+     font-size: large;
+     border-radius: 5px;
+     border: 3px solid #0d9c52;
+     background-color: #58bba9;
+     padding-left: 5px;
+     box-sizing: border-box;
+     margin-right: 15px;
+     color: #fff;
+ }
+
+ .info button {
+     width: 3.75rem;
+     height: 2.5rem;
+     font-size: 1.3rem;
+     background-color: #0d9c52;
+     outline: none;
+     border: 0;
+     color: #fff;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+
+ .wrapper {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .wrapper .total {
+     color: #fff;
+     opacity: 0;
+     transition: all 0.5s;
+     margin-right: 16rem;
+     margin-top: -10px;
+ }
+
+ table {
+     margin: 0 auto;
+     border-collapse: collapse;
+     width: 80%;
+ }
+
+ thead tr th {
+     padding: 10px;
+     font-size: 2rem;
+     color: #fff;
+     margin-left: 2rem;
+ }
+
+ .idea {
+     width: 800px
+ }
+
+ .time {
+     width: 20%;
+ }
+
+ th,
+ td {
+     border: 1px solid #999;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ table thead tr {
+     background-color: #008c8c;
+     color: #fff;
+ }
+
+ table tbody tr:nth-child(odd) {
+     background-color: #eee;
+ }
+
+ table tbody tr:hover {
+     background-color: #ccc;
+ }
+
+ tbody {
+     font-size: 1.5625rem;
+ }
+
+ tr a {
+     text-decoration: none;
+     color: black;
+ }
+
+
+ table tfoot tr td {
+     text-align: right;
+     padding-right: 20px;
+ }
+
+ .icon-jiantou_yemian_xiangyou {
+     font-size: 5rem;
+     display: flex;
+     justify-content: center;
+     color: #fff;
+ }

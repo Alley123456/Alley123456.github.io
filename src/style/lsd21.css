@@ -1,0 +1,75 @@
+section {
+    background-color: #4dd6d0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#text {
+    position: absolute;
+    top: 12%;
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: .0313rem .0313rem .0625rem rgba(0, 0, 0, .2);
+}
+
+footer {
+    padding: 0 8%;
+    background-color: rgb(21, 59, 53);
+    line-height: 1.5;
+}
+
+
+footer h1 {
+    font-size: 3.75rem;
+    text-align: center;
+    color: white;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+footer p {
+    font-size: 2rem;
+
+    color: white;
+}
+
+nav {
+    position: fixed;
+    left: 93%;
+    top: 50%;
+    z-index: 999;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.icon-jiantou_yemian_xiangshang {
+    font-size: 5rem;
+}
+
+.icon-jiantou_yemian_xiangyou {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}

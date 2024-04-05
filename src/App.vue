@@ -1,30 +1,40 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #3f7068;
+  font-weight: 400;
+  padding-left: 10%;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+nav {
+  padding: 2% 14%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 13%;
+
+}
+
+.nav {
+  font-size: 2.25rem;
+}
+
+.nav_active {
+  font-weight: 550;
+}
+
+.logo {
+  font-size: 3.5rem;
+  color: #3f7068;
+  font-weight: 800;
 }
 </style>

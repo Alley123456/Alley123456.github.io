@@ -1,0 +1,65 @@
+{
+  "id": "4466842",
+  "name": "名片",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5387592",
+      "name": "箭头_页面_向右",
+      "font_class": "jiantou_yemian_xiangyou",
+      "unicode": "eb0b",
+      "unicode_decimal": 60171
+    },
+    {
+      "icon_id": "15838434",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "5387587",
+      "name": "箭头_页面_向上",
+      "font_class": "jiantou_yemian_xiangshang",
+      "unicode": "eb0a",
+      "unicode_decimal": 60170
+    },
+    {
+      "icon_id": "2035056",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "6366912",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "13638711",
+      "name": "学校",
+      "font_class": "xuexiao",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "16365912",
+      "name": "专业 专业课",
+      "font_class": "zhuanyezhuanyeke",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "32380765",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

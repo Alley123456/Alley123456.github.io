@@ -1,0 +1,144 @@
+body {
+    background-color: #4dd6d0;
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 3px solid rgb(21, 59, 53);
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+.name {
+    font-size: 1.8rem;
+}
+
+.vx,
+.icon-weixin {
+    font-size: 1.5rem;
+}
+
+.dizhi,
+.icon-dizhi {
+    font-size: 1.5rem;
+}
+
+.school,
+.icon-xuexiao {
+    font-size: 1.5rem;
+}
+
+
+
+.basic {
+    line-height: 2.5rem;
+}
+
+.slider {
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(230, 207, 163);
+    border: 10px solid #c8ed87;
+    border-radius: 10px;
+}
+
+.slider_head img {
+    width: 100%;
+}
+
+.slider_body {
+    text-indent: 2%;
+    font-size: 1.2rem;
+}
+
+.slider_dot ul li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    display: inline-block;
+    list-style-type: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.slider_dot ul .active {
+    background-color: rgb(142, 132, 132)
+}
+
+.slider_head {
+    position: relative
+}
+
+.slider_head .toggle {
+    position: absolute;
+    right: 0;
+    top: 260px;
+    display: flex;
+}
+
+.slider_head .toggle button {
+    margin-right: 12px;
+    width: 28px;
+    height: 28px;
+    appearance: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.slider_head .toggle button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.photo img {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.photo {
+    text-align: center;
+
+}
+
+
+.home {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 15px;
+}
+
+.icon-back {
+    color: #fff;
+    font-size: 2rem;
+}
